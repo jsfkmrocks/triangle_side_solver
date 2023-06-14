@@ -1,0 +1,39 @@
+//	Jordan Brown 9/5/19, Finding the sides of a triangle
+
+// Begining Text
+#include <iostream>
+using namespace std;
+
+//Main Program
+int main ()
+{
+
+//Initialize Variables
+int m,n,side1,side2,hypotenuse;
+
+//Pretty Space
+cout << endl;
+
+//Gather user input
+cout << "Enter a positive integer greater than one: ";
+cin >> m;
+cout << "Enter an positive integer smaller than the first: ";
+cin >> n;
+
+//Calculations
+side1=m*m-n*n;
+side2=2*m*n;
+hypotenuse=m*m+n*n;
+
+//Pretty Space
+cout << endl;
+
+//Output Dialogue
+cout << "With input values " << m << " and " << n << endl;
+cout << "The resulting right triangle has the following dimmensions: " << endl;
+cout << "\t Side One is: " << side1 << endl;
+cout << "\t Side Two is: " << side2 << endl;
+cout << "\t The Hypotenuse is: " << hypotenuse << endl;
+
+//Close bracket
+}
